@@ -1,0 +1,66 @@
+.steps{
+	width: 1052px;
+	margin: 0 auto;
+	margin-top: 37px;
+}
+.step{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.step__text{
+	font-size: 24px;
+	line-height: 33px;
+	color: #B9B9B9;
+}
+.step__line{
+	height: 8px;
+	background: #f0f0f0;
+    margin-top: 10px;
+}
+.step--active .step__text{
+	color: #017233;
+}
+.step--active .step__line{
+	background: #017233;
+}
+.config-logo{
+	width: 488px;
+	height: 162px;
+	margin: 0 auto;
+	margin-top: 40px;
+	
+}
+.config-logo--wechat{
+	background-image: url('../img/ic_1.config wechat@2x.png');
+}
+.config-logo--ac{
+	background-image: url('../img/ic_2.config ac@2x.png');
+}
+.config-logo--finished{
+	background-image: url('../img/ic_3.finish configration@2x.png');
+}
+.form--config-wechat{
+	width: 580px;
+	padding-right: 140px;
+}
+.form--config-ac{
+	width: 584px;
+	padding-right: 150px;
+}
+.button--config-wechat{
+	margin-left: 143px;
+	width: 437px;
+	margin-bottom: 76px;
+}
+.button--config-ac{
+	margin-left: 153px;
+	width: 432px;
+	margin-bottom: 32px;
+}
+.form--config-ac .form-item__label{
+	width: 153px;
+}
+.form--config-ac .form-item__content{
+	margin-left: 153px;
+}

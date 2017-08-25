@@ -1,0 +1,192 @@
+/*index*/
+.banner{
+	height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner@2x.png);
+    position: relative;
+}
+.banner__text{
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 780px;
+    text-align: center;
+    top: 166px;
+    font-weight: lighter;
+}
+.banner__menus{
+	width: 800px;
+	height: 140px;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -40px;
+	box-shadow: 0px 5px 5px -1px #f4f4f4;
+}
+.banner__menu{
+	width: 25%;
+	height: 100%;
+	float: left;
+	
+}
+.menu--arrow{
+	background: #f1f1f1;
+	position: relative;
+}
+.menu__arrow{
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 9px solid #f1f1f1;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu__icon{
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;	
+	margin-top: 32px;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon--user{
+	background-image: url(../img/ic_user.png);
+	width: 40px;
+	height: 37px;
+}
+.icon--accout{
+	background-image: url(../img/ic_wechat.png);
+	width: 44px;
+	height: 37px;
+}
+.icon--connector{
+	background-image: url(../img/ic_wepublish.png);
+}
+.icon--system{
+	background-image: url(../img/ic_system.png);
+}
+.menu__title{
+	margin-top: 15px;
+	font-size: 16px;
+	color: #282828;
+	text-align: center;
+}
+.index-middle{
+	height: 460px;
+	padding-top: 112px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.index-middle__text{
+	font-size: 36px;
+	color: #282828;
+	letter-spacing: -1px;
+	text-align: center;
+}
+.index-middle__green{
+	margin: 0 auto;
+	width: 36px;
+	height: 6px;
+	background-image: url('../img/Rectangle 2@2x.png');
+	margin-top: 32px;
+}
+.index-middle__img{
+	margin: 0 auto;
+	margin-top: 44px;
+	width: 521px;
+	height: 202px;
+	background-image: url('../img/adobe campaign with wechat@2x.png');
+}
+.index-options{
+	height: 222px;
+    background: #f6f6fa;
+    padding-top: 48px;
+    box-sizing: border-box;
+    position: relative;
+}
+.index-options__arrow{
+    width: 0px;
+    height: 0px;
+    border-bottom: 20px solid #fff;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.index-options__wrapper{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 888px;
+    margin: 0 auto;
+}
+.index-option{
+	height: 128px;
+	width: 118px;
+	position: relative;
+}
+.index-option__icon{
+	width: 54px;
+	height: 54px;
+	margin: 0 auto;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon--cm{
+	background-image: url('../img/content management@2x.png');
+}
+.icon--wc{
+	background-image: url('../img/wechat connection@2x.png');
+}
+.icon--msc{
+	width: 58px;
+	height: 49px;
+	background-image: url('../img/marketing system connection@2x.png');
+}
+.icon--ubp{
+	width: 54px;
+	height: 57px;
+	background-image: url('../img/user behavior perception@2x.png');
+}
+.icon--wm{
+	width: 57px;
+	height: 47px;
+	background-image: url('../img/wechat management@2x.png');
+}
+.index-option__text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #282828;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    line-height: 20px;
+}
+.index-logo{
+	height: 160px;
+	background: #fff;
+	padding-top: 46px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dcdcdc;
+}
+.logo--lg{
+	width: 375px;
+	height: 73px;
+	margin: 0 auto;
+	background-image: url('../img/bottom logo@2x.png');
+}
