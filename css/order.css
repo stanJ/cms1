@@ -1,0 +1,9 @@
+.table-wrapper--order{
+	width: 1052px;
+	margin: 0 auto;
+	height: 736px;
+}
+.table-wrapper--order td:nth-last-of-type(1){
+	color: #017233;
+	cursor: pointer;
+}

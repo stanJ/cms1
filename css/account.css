@@ -1,0 +1,32 @@
+.account-wrapper{
+	width: 880px;
+	margin: 0 auto;
+}
+.info__label{
+	display: inline-block;
+    width: 80px;
+    text-align: right;
+    padding-right: 6px;
+}
+.account-info{
+	text-align: center;
+	color: #282828;
+	line-height: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.info__value{
+	display: inline-block;
+    width: 155px;
+    text-align: left;
+}
+.account-bg{
+	/*margin-top: 66px;*/
+	height: 465px;
+	background-image: url('../img/bg_CMS@2x.png');
+}
+.account-btns{
+	width: 432px;
+	margin: 0 auto;
+	padding-top: 298px;
+}

@@ -64,3 +64,82 @@
 .form--config-ac .form-item__content{
 	margin-left: 153px;
 }
+.config-content{
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.success__icon{
+	width: 56px;
+	height: 56px;
+	float: left;
+}
+.icon--success{
+	background-image: url('../img/ic_success@2x.png');
+}
+.success__text{
+	float: left;
+	font-size: 18px;
+	line-height: 56px;
+	font-weight: bold;
+	margin-left: 20px;
+	
+}
+.config-content__ac{
+	margin-top: 52px;
+}
+.config-content__icon{
+	float: left;
+}
+.icon--book{
+	width: 54px;
+	height: 38px;
+	background-image: url('../img/ic_ac system@2x.png');
+	margin: 0 1px;
+}
+.icon--light{
+	width: 49px;
+	height: 54px;
+	background-image: url('../img/ic_wechat functions@2x.png');
+	margin: 0 3.5px
+}
+.config-content__wrapper{
+	margin-left: 20px;
+	float: left;
+}
+.config-content__ac .config-content__wrapper{
+	line-height: 20px;
+}
+.config-content__wechat .config-content__wrapper{
+	line-height: 26px;
+}
+.config-content__link{
+	margin-top: 8px;
+}
+.config-content__link a{
+	color: #017233;
+	text-decoration: underline;
+}
+.config-content__link a:hover{
+	text-decoration: underline;
+}
+.config-content__wechat{
+	margin-top: 30px;
+}
+.row__icon{
+    width: 16px;
+    height: 11px;
+    float: left;
+    margin: 8px 14px 0 6px;
+}
+.icon--check-mark{
+	background-image: url('../img/duigou@2x.png');
+}
+.row__text{
+	float: left;
+}
+.button--config-finished{
+	margin-left: 58px;
+	margin-top: 28px;
+}
